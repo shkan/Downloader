@@ -1,6 +1,6 @@
 do
 
-local function run(msg, matches)
+local run(msg, matches)
   local receiver = get_receiver(msg)
   local url = matches[1]
   local ext = matches[2]
@@ -33,9 +33,7 @@ local function run(msg, matches)
   else
     print('send_file')
     send_file(receiver, file, rmtmp_cb, cb_extra)
-  end
   
-end
 
 return {
   description = "When user sends media URL (ends with gif, mp4, pdf, etc.) download and send it to origin.", 
@@ -56,4 +54,3 @@ return {
   run = run 
 }
 
-end
