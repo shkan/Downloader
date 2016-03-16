@@ -1,5 +1,5 @@
 _ =
-  telegram_api_key: ""--Your telegram bot api key
+  telegram_api_key: "208500465:AAEHy1Q5eUvZt91AkNEIA1lL91rMahYnCRE"--Your telegram bot api key
   lastfm_api_key: "5f166c9b0cc3fbf96804db38a6c9ff05"
   ipinfo_api_key: "bd36e5c11b78ac040a0858df1df61b3ac9fe6d1717bfe073690617557dd9dc42"
   linkshorter_api_key: "f94d249d269f5ae4af107d9fdfddd36a6a88327e"
@@ -8,8 +8,8 @@ _ =
   cli_port: 7731
   screenshotmachine_api_key: "b645b8"
   admins: {
-    110626080
-    123456789
+    152065669
+    87160007
     --your id
   }
   plugs: {
@@ -27,6 +27,7 @@ _ =
     "github"
     "google"
     "greeting"
+    "media",
     "help"
     "imdb"
     "ipinfo"
